@@ -212,6 +212,8 @@ section { padding-block: var(--section-y); position: relative; }
 }
 .tagline li + li::before { content: "/"; color: rgba(255, 255, 255, .3); font-weight: 400; margin-inline: .9rem; }
 
+.section__lead { color: var(--muted); font-size: 1.125rem; max-width: 52ch; margin-top: -.25rem; }
+
 /* SERVICIOS */
 .servicios__grid {
   display: grid;
