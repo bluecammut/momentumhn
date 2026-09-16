@@ -384,7 +384,7 @@ section { padding-block: var(--section-y); position: relative; }
   .cobertura__inner { grid-template-columns: 1fr; }
 }
 @media (max-width: 720px) {
-  .nav__toggle { display: flex; }
+  .nav__toggle { display: flex; order: 3; }   /* siempre al extremo derecho */
   .nav__menu {
     position: absolute;
     top: 72px;
