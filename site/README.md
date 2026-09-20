@@ -57,5 +57,3 @@ Cada pagina lleva titulo, descripcion, canonical, etiquetas para redes y datos e
 ## Pendientes
 
 - Logos de Ron Zacapa y Jetstereo en PNG o SVG (hoy van como texto).
-- Confirmar dominio momentumhn.com y donde esta registrado.
-- Favicon dedicado (hoy usa el logo a color).
