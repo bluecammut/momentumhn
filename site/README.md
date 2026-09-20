@@ -7,13 +7,15 @@ One-pager estatico. Sin framework, sin build, sin dependencias. Se publica copia
 
 ```
 site/
-  index.html          Todo el contenido. Cada seccion tiene un comentario que explica que editar.
+  index.html          Pagina principal. Cada seccion tiene un comentario que explica que editar.
+  silent-party/       Pagina del servicio de silent party. Misma estructura, mismos estilos.
   css/styles.css      Estilos. Los colores y fuentes estan al inicio, en la seccion TOKENS.
   js/main.js          Menu movil, filtros del portafolio y anio del footer. Nada mas.
   assets/
     img/portafolio/   Fotos del portafolio en WebP, maximo 1600 px de ancho.
     img/equipo/       Fotos de los fundadores, 600x600, recorte circular por CSS.
     img/              Mapa de Honduras.
+    img/silent/       Fotos de la pagina de silent party.
     logos/            Logo Momentum en blanco, negro y color.
     logos/clientes/   Logos de clientes en PNG con fondo transparente. Se pintan en blanco por CSS.
 ```
@@ -46,6 +48,11 @@ python3 -m http.server 8000
 ```
 
 Abre http://localhost:8000
+
+## SEO
+
+Cada pagina lleva titulo, descripcion, canonical, etiquetas para redes y datos estructurados
+(JSON-LD) en el <head>. Si agregas una pagina nueva, copia ese bloque y agrega la URL a sitemap.xml.
 
 ## Pendientes
 
