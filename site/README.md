@@ -8,7 +8,8 @@ One-pager estatico. Sin framework, sin build, sin dependencias. Se publica copia
 ```
 site/
   index.html          Pagina principal. Cada seccion tiene un comentario que explica que editar.
-  silent-party/       Pagina del servicio de silent party. Misma estructura, mismos estilos.
+  silent-tech/        Pagina de Silent Tech (audio inmersivo). Misma estructura, mismos estilos.
+  silent-party/       Solo redirige a silent-tech/#silent-party. No editar.
   css/styles.css      Estilos. Los colores y fuentes estan al inicio, en la seccion TOKENS.
   js/main.js          Menu movil, filtros del portafolio y anio del footer. Nada mas.
   assets/
